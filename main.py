@@ -1,0 +1,12 @@
+from flet import *
+def main(page:Page):
+    page.window.width = 300
+    page.window.height = 400
+    page.bgcolor = Colors.WHITE
+
+    page.add(
+        TextField(label="name"),
+        ElevatedButton("enter")
+    )
+    page.update()
+run(main)
