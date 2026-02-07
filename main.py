@@ -5,7 +5,6 @@ def main(page:Page):
     page.bgcolor = Colors.WHITE
 
     page.add(
-        TextField(label="name"),
         ElevatedButton("enter")
     )
     page.update()
